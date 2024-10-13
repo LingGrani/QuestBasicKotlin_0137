@@ -26,7 +26,7 @@ fun withDefaultParameter(name: String = "Indra", age: Int) {
 }
 
 fun withReturn(panjang: Int, lebar: Int) : Int {
-    return println(panjang * lebar)
+    return (panjang * lebar)
 }
 fun main() {
     withoutParameter()
